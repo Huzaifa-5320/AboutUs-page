@@ -12,6 +12,7 @@ public class AboutUs extends Application {
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(AboutUs.class.getResource("AboutUs.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 300, 250);
+        primaryStage.getIcons().add(new Image(AboutUs.class.getResourceAsStream("4.png")));
         primaryStage.setTitle("About Us");
         primaryStage.setScene(scene);
         primaryStage.show();
