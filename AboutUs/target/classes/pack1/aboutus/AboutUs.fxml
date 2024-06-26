@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pack1.aboutus.AboutUsController">
+   <children>
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#d9e0e8" height="796.0" layoutX="17.0" layoutY="27.0" stroke="BLACK" strokeType="INSIDE" width="814.0" />
+      <Rectangle arcHeight="40.0" arcWidth="40.0" fill="#250885" height="645.0" layoutX="62.0" layoutY="129.0" stroke="BLACK" strokeType="INSIDE" width="291.0" />
+      <Label layoutX="78.0" layoutY="352.0" prefHeight="51.0" prefWidth="222.0" text="CareerCurious" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="29.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="299.0" layoutX="373.0" layoutY="127.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" width="203.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="312.0" layoutX="592.0" layoutY="462.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="203.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="312.0" layoutX="373.0" layoutY="462.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="203.0" />
+      <Rectangle arcHeight="30.0" arcWidth="30.0" fill="WHITE" height="299.0" layoutX="592.0" layoutY="127.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="203.0" />
+      <ImageView fitHeight="127.0" fitWidth="178.0" layoutX="605.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Hassan.png" />
+         </image></ImageView>
+      <ImageView fitHeight="165.0" fitWidth="178.0" layoutX="386.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Anas.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="183.0" fitWidth="178.0" layoutX="605.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Huzaifa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="183.0" fitWidth="178.0" layoutX="386.0" layoutY="480.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Ali.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="386.0" layoutY="276.0" prefHeight="31.0" prefWidth="178.0" text="M. Anas Sohail" textFill="#250885">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="605.0" layoutY="276.0" prefHeight="31.0" prefWidth="178.0" text="Huzaifa Ali Khan" textFill="#250885">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="605.0" layoutY="610.0" prefHeight="31.0" prefWidth="178.0" text="Syed Hassan Jilani" textFill="#250885">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="610.0" prefHeight="31.0" prefWidth="178.0" text="Ali Ahmed" textFill="#250885">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="305.0" prefHeight="31.0" prefWidth="178.0" text="Team Leader">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="605.0" layoutY="306.0" prefHeight="20.0" prefWidth="165.0" text="Team Member">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="605.0" layoutY="641.0" prefHeight="20.0" prefWidth="165.0" text="Team Member">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="386.0" layoutY="641.0" prefHeight="20.0" prefWidth="165.0" text="Team Member">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" layoutX="78.0" layoutY="403.0" prefHeight="207.0" prefWidth="259.0" text="Streamline job management with our all-in-one software featuring  job posting, applications, and job search with automated email notifications on successful applications." textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <FontAwesomeIconView fx:id="Insta1" fill="#250885" glyphName="INSTAGRAM" layoutX="449.0" layoutY="403.0" onMouseClicked="#Insta1pressed" size="30" />
+      <FontAwesomeIconView fx:id="Fb1" fill="#250885" focusTraversable="true" glyphName="FACEBOOK" layoutX="386.0" layoutY="403.0" onMouseClicked="#Fb1pressed" size="30" />
+      <FontAwesomeIconView fx:id="Fb2" fill="#250885" glyphName="FACEBOOK" layoutX="605.0" layoutY="403.0" onMouseClicked="#Fb2pressed" size="30" />
+      <FontAwesomeIconView fx:id="Fb3" fill="#250885" glyphName="FACEBOOK" layoutX="386.0" layoutY="748.0" onMouseClicked="#Fb3pressed" size="30" />
+      <FontAwesomeIconView fx:id="Fb4" fill="#250885" glyphName="FACEBOOK" layoutX="605.0" layoutY="748.0" onMouseClicked="#Fb4pressed" size="30" />
+      <FontAwesomeIconView fx:id="Insta2" fill="#250885" glyphName="INSTAGRAM" layoutX="662.0" layoutY="403.0" onMouseClicked="#Insta2pressed" size="30" />
+      <FontAwesomeIconView fx:id="Insta3" fill="#250885" glyphName="INSTAGRAM" layoutX="449.0" layoutY="748.0" onMouseClicked="#Insta3pressed" size="30" />
+      <FontAwesomeIconView fx:id="Insta4" fill="#250885" glyphName="INSTAGRAM" layoutX="662.0" layoutY="748.0" onMouseClicked="#Insta4pressed" size="30" />
+      <FontAwesomeIconView fill="WHITE" glyphName="ROCKET" layoutX="78.0" layoutY="333.0" size="80" />
+      <FontAwesomeIconView fill="WHITE" glyphName="COPYRIGHT" layoutX="282.0" layoutY="386.0" size="20" />
+      <FontAwesomeIconView fx:id="Git1" fill="#250885" glyphName="GITHUB" layoutX="412.0" layoutY="403.0" onMouseClicked="#Git1Clicked" size="30" />
+      <FontAwesomeIconView fx:id="Git2" fill="#250885" glyphName="GITHUB" layoutX="629.0" layoutY="403.0" onMouseClicked="#Git2Clicked" size="30" />
+      <FontAwesomeIconView fx:id="Git3" fill="#250885" glyphName="GITHUB" layoutX="412.0" layoutY="748.0" onMouseClicked="#Git3Clicked" size="30" />
+      <FontAwesomeIconView fx:id="Git4" fill="#250885" glyphName="GITHUB" layoutX="629.0" layoutY="748.0" onMouseClicked="#Git4Clicked" size="30" />
+      <AnchorPane layoutX="18.0" layoutY="40.0" prefHeight="66.0" prefWidth="814.0" style="-fx-background-color: #250885;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CareerCurious" wrappingWidth="165.0">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+            </Text>
+            <Hyperlink layoutX="179.0" layoutY="22.0" text="Home" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="241.0" layoutY="22.0" text="Notifications" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="348.0" layoutY="22.0" text="AboutUs" textFill="WHITE">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Hyperlink>
+            <Button layoutX="732.0" layoutY="20.0" mnemonicParsing="false" style="-fx-background-color: #3f05ff; -fx-background-radius: px;" text="Post a job" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
